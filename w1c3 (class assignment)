@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task3</title>
+</head>
+<style type="text/css">
+	div 
+	{
+		border: 5px solid skyblue;
+		margin: 50px;
+		padding: 20px; padding-color:yellow;
+		font-size: 29px;
+		font-family: fantasy;
+		background-color: silver;
+		box-shadow: 20px ;
+	}
+	p{
+		background: maroon;
+		color: white;
+	}
+</style>
+
+<body>
+
+<div><p align="center">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</p></div>
+ <table border="3px">
+ 	<tr><td>
+ 	<ul> Margin</ul>
+	<ul> Border-color</ul>
+ 	<ul> padding-color (as shadow)</ul>
+ 	<ul> context</ul>
+ 	</td></tr>
+ </table>
+
+</body>
+</html> 	
