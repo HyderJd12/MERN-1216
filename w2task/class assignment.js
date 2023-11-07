@@ -16,3 +16,21 @@ console.log("-------string-----------");
 const names = ['maham', 'farman', 'Mj', 'duli' ,'Ali', 'ali'];
 const namearray = names.sort ((a,b) => a.localeCompare (b) );
 console.log(namearray);
+
+// spread opreator
+const obj={
+    pw:123,
+    security_code:345,
+    Gmail: "qwerty@gmail.com",
+    title: "student"
+}
+const obj2 ={
+    name:'Farman Hyder',
+    fatherName: 'Maqbool hussain',
+    Gmail:"asdf@gmail.com", // this gmail is overwrite with (const obj's gmail)
+}
+const {pw, Gmail, ...rest} = obj;
+console.log(rest);
+
+const objnew= { ...obj, ...obj2};
+console.log(objnew);
